@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/DrawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:elevation="1dp">
+
+
+    <TextView
+        android:id="@+id/tv_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No item found"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:visibility="gone"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        />
+
+    <com.zoptal.chinamoonbuffet.common.InteractiveScrollView
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="3dp"
+    android:fillViewport="true"
+    >
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/rel_divideline"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:orientation="horizontal"
+            android:background="#a9a9a9">
+        </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/rel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F1F1F1"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="YOUR ORDER"
+        android:textSize="18dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        />
+
+        <com.zoptal.chinamoonbuffet.common.NonScrollListView
+        android:layout_below="@+id/tv_order"
+        android:id="@+id/listView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="#ffffff"
+        android:divider="#a9a9a9"
+        android:dividerHeight="1dp"
+        android:isScrollContainer="false"
+        android:layout_marginTop="10dp"
+        />
+</RelativeLayout>
+    <!--<com.zoptal.chinamoonbuffet.common.InteractiveScrollView-->
+        <!--android:id="@+id/scrollView"-->
+        <!--android:layout_below="@+id/rel"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="3dp"-->
+        <!--android:background="@color/colorblack"-->
+        <!--android:fillViewport="true"-->
+        <!--&gt;-->
+
+        <LinearLayout
+            android:id="@+id/linear"
+            android:layout_marginTop="3dp"
+            android:layout_below="@+id/rel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#F1F1F1"
+            android:orientation="vertical">
+
+            <!--<TextView-->
+           <!--android:id="@+id/tv_order"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="YOUR ORDERS"-->
+            <!--android:textSize="18dp"-->
+            <!--android:layout_marginTop="30dp"-->
+            <!--android:layout_marginLeft="15dp"-->
+            <!--android:textColor="#000000"-->
+            <!--android:textStyle="bold"-->
+            <!--/>-->
+            <!--<ListView-->
+             <!--android:layout_below="@+id/tv_order"-->
+            <!--android:id="@+id/listView"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="192dp"-->
+            <!--android:gravity="center"-->
+            <!--android:background="#ffffff"-->
+            <!--android:divider="@android:color/transparent"-->
+            <!--android:dividerHeight="5dp"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--/>-->
+
+
+                <TextView
+                    android:id="@+id/total"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Total amount:"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_toLeftOf="@+id/total_value"
+                    android:layout_below="@+id/listView"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:id="@+id/tv_dlr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="$"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:layout_toLeftOf="@+id/total_value"
+                    android:layout_marginTop="22dp"
+                    android:layout_below="@+id/listView"
+                    android:textColor="#000000"/>
+
+
+                <TextView
+                    android:id="@+id/total_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="00"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="22.dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:layout_below="@+id/listView"
+                    android:textColor="#000000"/>
+
+                <TextView
+            android:layout_below="@+id/total"
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="APPLY COUPON CODE"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#000000"/>
+
+
+            <RelativeLayout
+                android:layout_marginLeft="13dp"
+            android:layout_below="@+id/tv"
+            android:id="@+id/rel_coupon"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="10dp"
+            android:background="@mipmap/coupon_code_box">
+
+                <EditText
+                    android:id="@+id/ed_coupon"
+                    android:padding="8dp"
+                    android:gravity="center"
+                    android:hint="Apply Coupon"
+                    android:singleLine="true"
+                    android:textSize="12dp"
+                    android:imeOptions="actionDone"
+                    android:textCursorDrawable="@drawable/blackcursor"
+                    android:background="@android:color/transparent"
+                    android:layout_width="100dp"
+                    android:layout_height="35dp" />
+
+            </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/discount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Discount:"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="70dp"
+                    android:layout_toLeftOf="@+id/tv_dlr1"
+                    android:layout_below="@+id/tv"
+                    android:textColor="#000000"/>
+
+
+                <TextView
+                    android:id="@+id/tv_dlr1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="$"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="20dp"
+                    android:layout_below="@+id/tv"
+                    android:layout_toLeftOf="@+id/discountvalue"
+                    android:textColor="#000000"/>
+
+
+                <TextView
+                    android:id="@+id/discountvalue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_below="@+id/tv"
+                    android:layout_alignParentRight="true"
+                    android:textColor="#000000"/>
+                <ImageView
+                    android:id="@+id/img_chk"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/tv"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="5dp"
+           android:layout_toRightOf="@+id/rel_coupon"
+            android:background="@mipmap/coupon_code_disable"
+            android:layout_gravity="right" />
+
+
+                <ImageView
+                    android:id="@+id/img_crs"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/rel_coupon"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="40dp"
+                    android:visibility="gone"
+                    android:background="@mipmap/remove"
+                    android:layout_gravity="right" />
+
+                <TextView
+                    android:id="@+id/discount_amount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="After Discount:"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="27dp"
+                    android:layout_toLeftOf="@+id/tv_dlr2"
+                    android:layout_below="@+id/discount"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:id="@+id/tv_dlr2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="$"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="20dp"
+                    android:layout_below="@+id/discount"
+                    android:layout_toLeftOf="@+id/discountvaluetotal"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:id="@+id/discountvaluetotal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0.00"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_below="@+id/discount"
+                    android:layout_alignParentRight="true"
+                    android:textColor="#000000"/>
+
+                <!--<TextView-->
+            <!--android:id="@+id/tv1"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textSize="16dp"-->
+            <!--android:textColor="#000000"-->
+                <!--android:textStyle="bold"-->
+            <!--android:layout_below="@+id/rel_coupon"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:text="OR"/>-->
+
+                <!--<RelativeLayout-->
+                    <!--android:layout_centerHorizontal="true"-->
+                    <!--android:layout_below="@+id/tv1"-->
+                    <!--android:id="@+id/rel_punch"-->
+                    <!--android:layout_width="200dp"-->
+                    <!--android:layout_height="40dp"-->
+                    <!--android:layout_gravity="center_horizontal"-->
+                    <!--android:layout_marginTop="10dp"-->
+                    <!--android:background="@mipmap/coupon_code_box">-->
+
+                    <!--<EditText-->
+                        <!--android:id="@+id/ed_punch"-->
+                        <!--android:padding="8dp"-->
+                        <!--android:hint="Punch code"-->
+                      <!--android:gravity="center"-->
+                        <!--android:textCursorDrawable="@drawable/blackcursor"-->
+                        <!--android:background="@android:color/transparent"-->
+                        <!--android:layout_width="200dp"-->
+                        <!--android:layout_height="40dp" />-->
+
+                <!--</RelativeLayout>-->
+
+                <!--<ImageView-->
+                    <!--android:layout_toRightOf="@+id/rel_punch"-->
+                    <!--android:layout_width="35dp"-->
+                    <!--android:layout_height="35dp"-->
+                    <!--android:layout_below="@+id/tv1"-->
+                    <!--android:layout_marginTop="10dp"-->
+                    <!--android:layout_marginLeft="20dp"-->
+                    <!--android:background="@mipmap/coupon_code_disable"-->
+                    <!--android:layout_gravity="right" />-->
+            <!--<RelativeLayout-->
+            <!--android:id="@+id/rel_recomm"-->
+            <!--android:layout_below="@+id/tv1"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="150dp"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:background="#ffffff"-->
+            <!--android:layout_marginTop="15dp">-->
+
+                <!--<org.lucasr.twowayview.TwoWayView-->
+                    <!--android:id="@+id/lvItems"-->
+                    <!--style="@style/TwoWayView"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:drawSelectorOnTop="false" />-->
+
+            <!--</RelativeLayout>-->
+            <Button
+            android:id="@+id/btn_chkout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="60dp"
+            android:text="CHECK OUT"
+            android:layout_below="@+id/rel_coupon"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:layout_marginBottom="50dp"
+            android:background="@mipmap/checkout_button"/>
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    </com.zoptal.chinamoonbuffet.common.InteractiveScrollView>
+</android.support.v4.widget.DrawerLayout>
+
+
+
+
+
+
+
+
+
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+    <!--<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:id="@+id/DrawerLayout"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:elevation="1dp">-->
+
+    <!--&lt;!&ndash;<com.zoptal.chinamoonbuffet.common.InteractiveScrollView&ndash;&gt;-->
+        <!--&lt;!&ndash;xmlns:android="http://schemas.android.com/apk/res/android"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:id="@+id/scrollView"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_marginTop="3dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:background="@color/colorblack"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:fillViewport="true"&ndash;&gt;-->
+        <!--&lt;!&ndash;&gt;&ndash;&gt;-->
+
+        <!--<RelativeLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="#F1F1F1"-->
+            <!--android:orientation="vertical">-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="YOUR ORDERS"-->
+                <!--android:textSize="18dp"-->
+                <!--android:layout_marginTop="30dp"-->
+                <!--android:layout_marginLeft="15dp"-->
+                <!--android:textColor="#000000"-->
+                <!--android:textStyle="bold"-->
+                <!--/>-->
+            <!--<ListView-->
+                <!--android:id="@+id/listView"-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_height="100dp"-->
+                <!--android:gravity="center"-->
+                <!--android:background="#ffffff"-->
+                <!--android:divider="@android:color/transparent"-->
+                <!--android:dividerHeight="5dp"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--/>-->
+
+            <!--<TextView-->
+                <!--android:layout_below="@+id/listView"-->
+                <!--android:id="@+id/tv"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="IF YOU HAVE COUPON CODE"-->
+                <!--android:textSize="18dp"-->
+                <!--android:textStyle="bold"-->
+                <!--android:layout_marginTop="20dp"-->
+                <!--android:layout_centerHorizontal="true"-->
+                <!--android:layout_gravity="center_horizontal"-->
+                <!--android:textColor="#000000"/>-->
+
+
+
+            <!--<RelativeLayout-->
+                <!--android:layout_centerHorizontal="true"-->
+                <!--android:layout_below="@+id/tv"-->
+                <!--android:id="@+id/rel_coupon"-->
+                <!--android:layout_width="200dp"-->
+                <!--android:layout_height="70dp"-->
+                <!--android:layout_gravity="center_horizontal"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:background="@drawable/coupon_code_box"></RelativeLayout>-->
+
+            <!--<ImageView-->
+                <!--android:layout_toRightOf="@+id/rel_coupon"-->
+                <!--android:layout_width="40dp"-->
+                <!--android:layout_height="40dp"-->
+                <!--android:layout_below="@+id/tv"-->
+                <!--android:layout_marginTop="20dp"-->
+                <!--android:layout_marginLeft="20dp"-->
+                <!--android:background="@drawable/coupon_code_success_icon"-->
+                <!--android:layout_gravity="right" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/tv1"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:textSize="18dp"-->
+                <!--android:textColor="#000000"-->
+                <!--android:layout_below="@+id/rel_coupon"-->
+                <!--android:layout_marginLeft="15dp"-->
+                <!--android:layout_marginTop="30dp"-->
+                <!--android:text="OUR RECOMMENDATION"/>-->
+
+
+            <!--&lt;!&ndash;<RelativeLayout&ndash;&gt;-->
+                <!--&lt;!&ndash;android:id="@+id/rel_recomm"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_below="@+id/tv1"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:orientation="horizontal"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:background="#ffffff"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_marginTop="15dp">&ndash;&gt;-->
+
+                <!--&lt;!&ndash;<android.support.v4.view.ViewPager&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:id="@+id/pager1"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_margin="10dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_height="150dp">&ndash;&gt;-->
+                <!--&lt;!&ndash;</android.support.v4.view.ViewPager>&ndash;&gt;-->
+
+
+            <!--&lt;!&ndash;</RelativeLayout>&ndash;&gt;-->
+
+            <!--<Button-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="60dp"-->
+                <!--android:layout_marginTop="40dp"-->
+                               <!--android:text="CHECK OUT"-->
+                <!--android:textColor="#ffffff"-->
+                <!--android:textStyle="bold"-->
+                <!--android:textSize="20dp"-->
+                <!--android:background="@drawable/checkout_button"/>-->
+
+
+
+        <!--</RelativeLayout>-->
+    <!--&lt;!&ndash;</com.zoptal.chinamoonbuffet.common.InteractiveScrollView>&ndash;&gt;-->
+<!--</android.support.v4.widget.DrawerLayout>-->
+

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+        <RelativeLayout
+    android:id="@+id/rel"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+         >
+
+        <!--<TextView-->
+            <!--android:id="@+id/tv_orderid"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Order Id:"-->
+            <!--android:textColor="#000000"-->
+            <!--android:textSize="14dp"-->
+            <!--android:textStyle="bold"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:layout_marginLeft="20dp"-->
+            <!--android:layout_toRightOf="@+id/img"/>-->
+
+           <!--<TextView-->
+               <!--android:id="@+id/tv_orderidvalue"-->
+               <!--android:layout_marginTop="12dp"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="123456"-->
+                <!--android:textSize="12dp"-->
+                <!--android:textStyle="bold"-->
+                <!--android:layout_marginLeft="5dp"-->
+                <!--android:layout_toRightOf="@+id/tv_orderid"/>-->
+
+
+    <TextView
+
+        android:id="@+id/tv_paypal"
+        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order_id:"
+        android:textSize="12dp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        />
+
+
+    <TextView
+        android:id="@+id/tv_paypalid"
+        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="98753489"
+        android:textSize="12dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:layout_toRightOf="@+id/tv_paypal"/>
+
+
+
+
+
+    <TextView
+        android:layout_below="@+id/tv_paypal"
+        android:id="@+id/tv_ordertype"
+        android:layout_marginTop="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ORDER TYPE:"
+        android:textSize="12dp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        />
+
+
+    <TextView
+        android:layout_below="@+id/tv_paypal"
+        android:id="@+id/tv_ordername"
+        android:layout_marginTop="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PICKUP"
+        android:textSize="12dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:textColor="#808080"
+        android:layout_toRightOf="@+id/tv_ordertype"/>
+
+
+    <TextView
+        android:layout_below="@+id/tv_paypal"
+        android:id="@+id/tv_grand"
+        android:layout_marginTop="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grand Total:"
+        android:textSize="12dp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_toLeftOf="@+id/tv_grandtotal"
+        />
+
+
+    <TextView
+        android:layout_below="@+id/tv_paypal"
+        android:id="@+id/tv_grandtotal"
+        android:layout_marginTop="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="98753489"
+        android:textSize="12dp"
+        android:layout_marginLeft="5dp"
+        android:textStyle="bold"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"/>
+    <TextView
+        android:layout_below="@+id/tv_ordertype"
+        android:id="@+id/tv_orderst"
+        android:layout_marginTop="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ORDER STATUS:"
+        android:textSize="12dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        />
+
+    <TextView
+        android:layout_below="@+id/tv_ordertype"
+        android:id="@+id/tv_orderstatus"
+        android:layout_marginTop="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="complated"
+        android:textSize="12dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:textColor="#808080"
+        android:layout_toRightOf="@+id/tv_orderst"/>
+    <ImageView
+        android:layout_below="@+id/tv_ordertype"
+        android:id="@+id/img_calndr"
+       android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="10dp"
+        android:background="@mipmap/calander_icon"
+        android:layout_toLeftOf="@+id/tv_date"/>
+
+    <TextView
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/tv_ordertype"
+        android:id="@+id/tv_date"
+        android:layout_marginBottom="10dp"
+          android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3 Dec 2016"
+        android:textSize="12dp"
+        android:layout_marginLeft="5dp"
+        android:textStyle="bold"
+        android:layout_alignParentRight="true"
+        android:textColor="#808080"
+        />
+
+        </RelativeLayout>
+

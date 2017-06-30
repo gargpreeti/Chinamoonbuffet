@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/coloroffwhite"
+      android:layout_height="match_parent"
+
+    android:orientation="vertical" >
+
+    <RelativeLayout
+            android:background="@drawable/top_strip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+<TextView
+    android:id="@+id/tv_main"
+    android:text="SPECIAL NIGHT"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#000000"
+    android:textSize="16dp"
+    android:textStyle="bold"
+    android:layout_marginRight="5dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginTop="15dp"
+    android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/tv_punch"
+            android:layout_below="@+id/tv_main"
+            android:text="No.of punches:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="14dp"
+            android:alpha="0.7"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/tv_punchvalue"
+            android:layout_toRightOf="@+id/tv_punch"
+            android:layout_below="@+id/tv_main"
+            android:text="5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="14dp"
+            android:layout_marginLeft="5dp"/>
+
+        <TextView
+            android:id="@+id/tv_percnt"
+            android:textColor="#000000"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="55dp"
+            android:text="25%"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:alpha="0.8"
+            android:layout_toRightOf="@+id/tv_punchvalue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_below="@+id/tv_percnt"
+            android:textColor="#000000"
+            android:layout_marginLeft="40dp"
+            android:text="Discount"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:alpha="0.7"
+            android:layout_toRightOf="@+id/tv_punchvalue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <Button
+            android:layout_toRightOf="@+id/tv_percnt"
+            android:id="@+id/btn_getnow"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:text="Get now"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:textAllCaps="false"
+            android:layout_marginLeft="60dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="10dp"
+            android:background="@mipmap/checkout_button"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

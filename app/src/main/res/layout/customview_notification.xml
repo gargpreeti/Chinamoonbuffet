@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+         >
+<ImageView
+    android:id="@+id/img"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="25dp"
+    android:visibility="gone"
+    />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WONDER OFFER"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/img"/>
+
+           <TextView
+               android:id="@+id/tv2"
+                 android:layout_below="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hey! 2 items in your shopping cart are now on order! get them Today"
+                android:textSize="16dp"
+               android:layout_marginTop="10dp"
+               android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+               android:layout_marginBottom="10dp"
+                android:layout_toRightOf="@+id/img"/>
+
+
+
+        </RelativeLayout>
+

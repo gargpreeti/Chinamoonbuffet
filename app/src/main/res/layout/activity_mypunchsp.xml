@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/DrawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:elevation="1dp">
+
+    <LinearLayout
+        android:id="@+id/rel_divideline"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:orientation="horizontal"
+        android:background="#a9a9a9">
+    </LinearLayout>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1F1F1"
+    >
+
+    <TextView
+        android:visibility="gone"
+        android:layout_below="@+id/tv_main"
+        android:id="@+id/tv_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Required Punchs:"
+        android:textSize="16dp"
+        android:textColor="#000000"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        />
+
+
+    <TextView
+        android:visibility="gone"
+        android:layout_toRightOf="@+id/tv_total"
+        android:layout_below="@+id/tv_main"
+        android:id="@+id/tv_totalvalue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12"
+        android:textSize="16dp"
+        android:textColor="#000000"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        />
+
+    <TextView
+        android:visibility="gone"
+        android:layout_below="@+id/tv_total"
+        android:id="@+id/tv_need"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Available Punchs:"
+        android:textSize="16dp"
+        android:textColor="#000000"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+       />
+
+    <TextView
+        android:visibility="gone"
+        android:layout_below="@+id/tv_total"
+        android:id="@+id/tv_needvalue"
+        android:layout_toRightOf="@+id/tv_need"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5"
+        android:textSize="16dp"
+        android:textColor="#000000"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        />
+
+
+    <Button
+        android:visibility="gone"
+        android:layout_alignParentRight="true"
+        android:id="@+id/btn_redeem"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:text=" Get Coupon Code "
+        android:layout_below="@+id/rel_coupon"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:layout_marginRight="10dp"
+        android:background="@android:color/holo_red_dark"/>
+
+    <TextView
+        android:id="@+id/tv_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No Punch Found"
+        android:textSize="22dp"
+        android:textColor="#000000"
+android:visibility="gone"
+        android:layout_centerInParent="true"
+        />
+
+
+    <ListView
+
+        android:id="@+id/listView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/tv_need"
+
+        />
+
+</RelativeLayout>
+    </android.support.v4.widget.DrawerLayout>

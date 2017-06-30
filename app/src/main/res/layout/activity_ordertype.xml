@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/DrawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:elevation="1dp">
+
+    <LinearLayout
+        android:id="@+id/rel_divideline"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:orientation="horizontal"
+        android:background="#a9a9a9">
+    </LinearLayout>
+    <com.zoptal.chinamoonbuffet.common.InteractiveScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="3dp"
+        android:background="@color/colorblack"
+        android:fillViewport="true"
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1F1F1"
+    >
+<RelativeLayout
+    android:id="@+id/rel_ordertype"
+    android:layout_centerVertical="true"
+    android:layout_width="match_parent"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+    android:background="@mipmap/order_type_background"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_below="@+id/rel_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ORDER TYPE"
+        android:textSize="22dp"
+        android:textColor="#000000"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        />
+    <LinearLayout
+        android:layout_marginTop="2dp"
+        android:background="#a9a9a9"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tv_name"
+        android:layout_width="150dp"
+        android:layout_height="1dp"></LinearLayout>
+<RelativeLayout
+    android:layout_marginTop="60dp"
+    android:id="@+id/rel_pickup"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/img_pickup"
+        android:layout_below="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/pickup"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="65dp"
+       />
+    <TextView
+
+        android:id="@+id/tv_pickup"
+        android:layout_below="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="PICKUP"
+        android:layout_toRightOf="@+id/img_pickup"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="65dp"/>
+
+    <ImageView
+      android:visibility="gone"
+        android:id="@+id/img_pickup1"
+        android:layout_below="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/pickupenable"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="65dp"/>
+    <TextView
+        android:id="@+id/tv_pickup1"
+        android:layout_below="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="PICKUP"
+        android:visibility="gone"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_toRightOf="@+id/img_pickup1"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="65dp"/>
+</RelativeLayout>
+    <RelativeLayout
+        android:layout_toRightOf="@+id/rel_pickup"
+        android:layout_marginTop="58dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:layout_toRightOf="@+id/rel_pickup"
+        android:id="@+id/img_delivery"
+        android:layout_below="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/delivery"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="10dp"
+        android:visibility="gone"
+        android:layout_marginTop="65dp"/>
+
+    <TextView
+        android:id="@+id/tv_delivery"
+        android:layout_below="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="DELIVERY"
+        android:visibility="gone"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_toRightOf="@+id/img_delivery"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="67dp"/>
+        <ImageView
+            android:layout_toRightOf="@+id/rel_pickup"
+            android:id="@+id/img_delivery1"
+            android:layout_below="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/deliverydisable"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="65dp"/>
+
+        <TextView
+            android:id="@+id/tv_delivery1"
+            android:layout_below="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="DELIVERY"
+            android:layout_toRightOf="@+id/img_delivery1"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="67dp"/>
+    </RelativeLayout>
+
+</RelativeLayout>
+ <!--<Button-->
+    <!--android:id="@+id/btn_addcart"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="50dp"-->
+    <!--android:layout_marginTop="40dp"-->
+    <!--android:layout_marginLeft="50dp"-->
+    <!--android:layout_marginRight="50dp"-->
+    <!--android:text="Continue"-->
+    <!--android:textColor="#ffffff"-->
+    <!--android:textSize="23dp"-->
+    <!--android:textStyle="bold"-->
+     <!--android:textAllCaps="false"-->
+     <!--android:layout_marginBottom="10dp"-->
+    <!--android:background="@mipmap/add_to_cart_button"-->
+    <!--android:layout_below="@+id/rel_ordertype"/>-->
+
+
+
+</RelativeLayout>
+    </LinearLayout>
+    </com.zoptal.chinamoonbuffet.common.InteractiveScrollView>
+    </android.support.v4.widget.DrawerLayout>

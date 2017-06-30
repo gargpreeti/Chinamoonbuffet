@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:elevation="4dp"
+      android:background="@android:color/transparent"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+   >
+    <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@drawable/item_detail"-->
+        <!--&gt;-->
+    <RelativeLayout
+        android:id="@+id/root"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginRight="1dp"
+        android:background="@android:color/transparent"
+                >
+        <ImageView
+            android:id="@+id/img_bck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/back_arrow"
+            android:textStyle="bold"
+            android:visibility="gone"
+            android:layout_marginTop="20dp"
+           />
+
+        <TextView
+            android:id="@+id/tv_main"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="My Profile"
+            android:textStyle="bold"
+            android:textSize="18dp"
+             android:visibility="gone"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#000000"/>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fabtool"
+            app:fabSize="mini"
+            app:backgroundTint="#ffffff"
+            app:elevation="6dp"
+            app:pressedTranslationZ="12dp"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="3dp"
+            android:layout_toLeftOf="@+id/img_cart"
+            android:src="@drawable/callfloat"
+            />
+        <ImageView
+            android:background="@drawable/cart"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:textSize="14dp"
+            android:textColor="#000000"
+            android:id="@+id/img_cart"
+            android:layout_marginRight="5dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="2dp"
+            ></ImageView>
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:textColor="#ffffff"
+            android:id="@+id/tv_signin"
+            android:text="Sign in"
+            android:layout_marginTop="5dp"
+            android:layout_toLeftOf="@+id/img_cart"
+            android:layout_marginRight="1dp"
+        ></TextView>
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textSize="14dp"-->
+            <!--android:textColor="#000000"-->
+            <!--android:id="@+id/tv_signin1"-->
+            <!--android:text="Sign in"-->
+            <!--android:visibility="gone"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:layout_marginRight="5dp"-->
+            <!--android:layout_alignParentRight="true"-->
+
+            <!--&gt;</TextView>-->
+        <!--<ImageView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/img_user1"-->
+            <!--android:background="@mipmap/user_iconblck"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:visibility="gone"-->
+            <!--android:layout_toLeftOf="@+id/tv_signin"-->
+            <!--android:layout_marginRight="7dp"-->
+            <!--&gt;</ImageView>-->
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/img_user"
+            android:background="@mipmap/signin_icon"
+            android:layout_marginTop="12dp"
+            android:layout_toLeftOf="@+id/tv_signin"
+            android:layout_marginRight="3dp"
+            ></ImageView>
+
+        <!--<ImageView-->
+            <!--android:id="@+id/filter"-->
+            <!--android:layout_width="25dp"-->
+            <!--android:layout_height="25dp"-->
+            <!--android:background="@drawable/filter"-->
+            <!--android:layout_alignParentEnd="true"-->
+            <!--android:layout_marginRight="0dp"-->
+            <!--android:layout_marginTop="10dp"-->
+
+            <!--/>-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/tv_main"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentEnd="true"-->
+            <!--android:layout_marginRight="0dp"-->
+            <!--android:textSize="12dp"-->
+            <!--android:text="eweref"-->
+            <!--android:textColor="#ffffff"-->
+            <!--android:visibility="invisible"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:layout_marginLeft="15dp"-->
+            <!--/>-->
+        <!--<Button-->
+            <!--android:id="@+id/btn_edit"-->
+            <!--android:layout_width="25dp"-->
+            <!--android:layout_height="25dp"-->
+            <!--android:background="@drawable/edit1"-->
+            <!--android:layout_alignParentEnd="true"-->
+            <!--android:layout_marginRight="0dp"-->
+            <!--android:layout_marginTop="5dp"-->
+            <!--android:visibility="invisible"-->
+            <!--/>-->
+     </RelativeLayout>
+
+</android.support.v7.widget.Toolbar>

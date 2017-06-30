@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/popupback"
+      >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img_cross"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:gravity="right"
+            android:background="@mipmap/crossdelivry"
+            android:layout_gravity="right"
+            android:layout_marginTop="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_marginBottom="1dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:background="#ffffff"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical">
+
+        <!--<RelativeLayout-->
+            <!--android:id="@+id/relativeLayout"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="25dp"-->
+            <!--android:background="#ffffff"-->
+            <!--android:orientation="horizontal"-->
+           <!--&gt;-->
+            <!--<ImageView-->
+                <!--android:id="@+id/tv"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_alignParentTop="true"-->
+                <!--android:gravity="right"-->
+                <!--android:layout_marginTop="1dp"-->
+                <!--android:layout_alignParentRight="true"-->
+                <!--android:background="@mipmap/cross"-->
+                <!--android:layout_marginRight="5dp"-->
+                <!--android:textAppearance="?android:attr/textAppearanceMedium"-->
+                <!--android:textColor="#000000"-->
+                <!--android:layout_marginBottom="1dp"-->
+                <!--android:textStyle="bold" />-->
+        <!--</RelativeLayout>-->
+
+        <EditText
+            android:id="@+id/ed_oldpw"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint=" Old Password"
+            android:textSize="14dp"
+            android:singleLine="true"
+            android:imeOptions="actionNext"
+            android:inputType="textPassword"
+            android:background="@drawable/textfieldborderprofile"
+            android:padding="8dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textCursorDrawable="@drawable/blackcursor"
+            android:textColorHint="#a9a9a9"
+            />
+
+        <EditText
+            android:id="@+id/ed_newpw"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint=" New Password"
+            android:textSize="14dp"
+            android:singleLine="true"
+            android:imeOptions="actionNext"
+            android:background="@drawable/textfieldborderprofile"
+            android:padding="8dp"
+            android:inputType="textPassword"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textCursorDrawable="@drawable/blackcursor"
+            android:textColorHint="#a9a9a9"
+            />
+        <EditText
+            android:id="@+id/ed_confirmpw"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint=" Confirm Password"
+            android:textSize="14dp"
+            android:singleLine="true"
+            android:imeOptions="actionDone"
+            android:background="@drawable/textfieldborderprofile"
+            android:padding="8dp"
+            android:inputType="textPassword"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textCursorDrawable="@drawable/blackcursor"
+            android:textColorHint="#a9a9a9"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_below="@+id/rel_account"
+            android:layout_marginTop="30dp"
+            android:gravity="center_horizontal">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="CLEAR"
+                android:id="@+id/btn_clear"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:layout_marginBottom="5dp"
+                android:background="@mipmap/save_button"
+                android:layout_below="@+id/ed_zipcode"
+                android:layout_alignEnd="@+id/user_img" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="SAVE"
+                android:id="@+id/btn_save"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:layout_marginBottom="5dp"
+                android:background="@mipmap/save_button"
+                android:layout_marginStart="37dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

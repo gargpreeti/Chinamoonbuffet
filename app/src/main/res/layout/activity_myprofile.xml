@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/DrawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:elevation="1dp">
+
+    <LinearLayout
+        android:id="@+id/rel_divideline"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:orientation="horizontal"
+        android:background="#a9a9a9">
+    </LinearLayout>
+
+    <com.zoptal.chinamoonbuffet.common.InteractiveScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#a9a9a9"
+        android:fillViewport="true"
+        android:layout_marginTop="1dp"
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1F1F1"
+    android:layout_marginTop="2dp"
+    >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/user_img"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/usrimage"
+        android:layout_gravity="center"/>
+
+
+    <EditText
+        android:id="@+id/ed_name"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint=" Name"
+        android:textSize="14dp"
+        android:singleLine="true"
+         android:imeOptions="actionNext"
+        android:background="@drawable/textfieldborderprofile"
+        android:padding="8dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/user_img"
+        android:textCursorDrawable="@drawable/blackcursor"
+        android:textColorHint="#a9a9a9"
+        />
+    <EditText
+        android:id="@+id/ed_email"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint=" Email"
+        android:textSize="14dp"
+       android:singleLine="true"
+        android:imeOptions="actionNext"
+        android:background="@drawable/textfieldborderprofile"
+        android:padding="8dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/ed_name"
+        android:textCursorDrawable="@drawable/blackcursor"
+        android:textColorHint="#a9a9a9"
+        />
+    <EditText
+        android:id="@+id/ed_phone"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint=" Phone number"
+        android:textSize="14dp"
+        android:singleLine="true"
+        android:imeOptions="actionNext"
+        android:background="@drawable/textfieldborderprofile"
+        android:padding="8dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/ed_email"
+        android:textCursorDrawable="@drawable/blackcursor"
+        android:textColorHint="#a9a9a9"
+        />
+
+    <AutoCompleteTextView
+        android:id="@+id/ed_address"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Address"
+        android:textSize="14dp"
+        android:singleLine="true"
+        android:imeOptions="actionNext"
+        android:background="@drawable/textfieldborderprofile"
+        android:padding="8dp"
+        android:layout_below="@+id/ed_phone"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textCursorDrawable="@drawable/blackcursor"
+        android:textColorHint="#a9a9a9">
+
+        <requestFocus />
+    </AutoCompleteTextView>
+
+
+
+
+    <!--<EditText-->
+        <!--android:id="@+id/ed_address"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="70dp"-->
+        <!--android:hint=" Address"-->
+        <!--android:textSize="14dp"-->
+        <!--android:background="@drawable/textfieldborderprofile"-->
+        <!--android:padding="8dp"-->
+        <!--android:singleLine="true"-->
+        <!--android:imeOptions="actionNext"-->
+        <!--android:layout_marginTop="15dp"-->
+        <!--android:layout_marginLeft="20dp"-->
+        <!--android:layout_marginRight="20dp"-->
+        <!--android:layout_below="@+id/ed_phone"-->
+        <!--android:textCursorDrawable="@drawable/blackcursor"-->
+        <!--android:textColorHint="#a9a9a9"-->
+        <!--/>-->
+    <EditText
+        android:id="@+id/ed_zipcode"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint=" zipcode"
+        android:textSize="14dp"
+        android:singleLine="true"
+        android:imeOptions="actionDone"
+        android:background="@drawable/textfieldborderprofile"
+        android:padding="8dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/ed_address"
+        android:textCursorDrawable="@drawable/blackcursor"
+        android:textColorHint="#a9a9a9"
+        />
+
+    <LinearLayout
+        android:id="@+id/linr_btn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_below="@+id/ed_zipcode"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="CANCEL"
+            android:id="@+id/btn_cancel"
+            android:textColor="#ffffff"
+            android:textSize="16dp"
+            android:layout_marginBottom="5dp"
+            android:background="@mipmap/save_button"
+            android:layout_below="@+id/ed_zipcode"
+            android:layout_alignEnd="@+id/user_img" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="SAVE"
+            android:id="@+id/btn_save"
+            android:textColor="#ffffff"
+            android:textSize="16dp"
+            android:layout_marginBottom="5dp"
+            android:background="@mipmap/save_button"
+            android:layout_below="@+id/ed_zipcode"
+            android:layout_toEndOf="@+id/user_img"
+            android:layout_marginStart="37dp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_below="@+id/linr_btn"
+        android:id="@+id/rel_chngepw"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="CHANGE PASSWORD"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:alpha="0.6"
+            android:layout_centerVertical="true"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/arrow"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_below="@+id/rel_chngepw"
+        android:id="@+id/rel_ordrhistory"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="ORDER HISTORY"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:alpha="0.6"
+            android:layout_centerVertical="true"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/arrow"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_below="@+id/rel_ordrhistory"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:id="@+id/rel_account"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#ffffff">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="MY PUNCHES"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:alpha="0.6"
+            android:layout_centerVertical="true"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/arrow"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
+
+
+
+    </LinearLayout>
+    </com.zoptal.chinamoonbuffet.common.InteractiveScrollView>
+    </android.support.v4.widget.DrawerLayout>

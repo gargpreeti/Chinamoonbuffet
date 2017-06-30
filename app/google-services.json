@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "397050450263",
+    "firebase_url": "https://restaurentapp-151913.firebaseio.com",
+    "project_id": "restaurentapp-151913",
+    "storage_bucket": "restaurentapp-151913.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:397050450263:android:e1f2c3a80cc24506",
+        "android_client_info": {
+          "package_name": "com.zoptal.chinamoonbuffet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "397050450263-7i6so5i8odsqtp3fsn5krvk1n165upqc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zoptal.chinamoonbuffet",
+            "certificate_hash": "3240A853EDE470A743AD2FAA21BCA80757EE387A"
+          }
+        },
+        {
+          "client_id": "397050450263-hv4d3hr2m7gspeju3t7aoria6sc8dhgc.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "397050450263-q8d7ia9mh8n8rrjp8t5ndnvqf8gc014a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwTGFyNea54HwOIhxXBQHbbiRJQFab8rc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "397050450263-hv4d3hr2m7gspeju3t7aoria6sc8dhgc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

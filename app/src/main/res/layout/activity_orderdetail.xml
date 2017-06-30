@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/DrawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:elevation="1dp">
+
+    <com.zoptal.chinamoonbuffet.common.InteractiveScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="3dp"
+
+        android:background="@color/colorblack"
+        android:fillViewport="true"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#F1F1F1"
+            android:orientation="vertical">
+
+            <!--<TextView-->
+           <!--android:id="@+id/tv_order"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="YOUR ORDERS"-->
+            <!--android:textSize="18dp"-->
+            <!--android:layout_marginTop="30dp"-->
+            <!--android:layout_marginLeft="15dp"-->
+            <!--android:textColor="#000000"-->
+            <!--android:textStyle="bold"-->
+            <!--/>-->
+            <ListView
+            android:id="@+id/listView"
+            android:layout_width="fill_parent"
+            android:layout_height="192dp"
+            android:gravity="center"
+            android:background="#ffffff"
+            android:divider="#a9a9a9"
+            android:dividerHeight="1dp"
+            android:layout_marginTop="40dp"
+            />
+                <RelativeLayout
+                    android:background="#ffffff"
+                    android:id="@+id/rel_total"
+                    android:layout_below="@+id/listView"
+                    android:layout_marginTop="4dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <TextView
+                  android:layout_marginBottom="20dp"
+                    android:id="@+id/tv_total"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TOTAL"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="20dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="#000000"/>
+
+                    <TextView
+                        android:layout_marginBottom="20dp"
+                        android:id="@+id/tv_totalvalue"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="$123"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="20dp"
+                       android:layout_alignParentRight="true"
+                        android:textColor="#000000"/>
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:background="#ffffff"
+                    android:id="@+id/rel_delivry"
+                    android:layout_below="@+id/rel_total"
+                    android:layout_marginTop="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_marginBottom="20dp"
+                        android:id="@+id/tv_delivry"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="DELIVERY CHARGES"
+                        android:textSize="18dp"
+                        android:alpha="0.9"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:layout_marginBottom="20dp"
+                        android:id="@+id/tv_delivrychrge"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="$20"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_alignParentRight="true"
+                        android:textColor="#000000"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:background="#ffffff"
+                    android:id="@+id/rel_discount"
+                    android:layout_below="@+id/rel_delivry"
+                    android:layout_marginTop="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_marginBottom="20dp"
+                        android:id="@+id/tv_discount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="DISCOUNT"
+                        android:textSize="18dp"
+                        android:alpha="0.9"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:layout_marginBottom="20dp"
+                        android:id="@+id/tv_discountvalue"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="10%"
+                        android:textSize="18dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_alignParentRight="true"
+                        android:textColor="#000000"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:background="#ffffff"
+                    android:id="@+id/rel_grndtotal"
+                    android:layout_below="@+id/rel_discount"
+                    android:layout_marginTop="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_marginBottom="20dp"
+                        android:id="@+id/tv_grand"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="GRAND TOTAL"
+                        android:textSize="18dp"
+                        android:alpha="0.9"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:layout_marginBottom="20dp"
+                        android:id="@+id/tv_garndtotal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="$157.3"
+                        android:textSize="18dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_alignParentRight="true"
+                        android:textColor="#000000"/>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:id="@+id/rel"
+                    android:layout_below="@+id/rel_grndtotal"
+                    android:background="#a9a9a9"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"></RelativeLayout>
+                <Button
+                    android:id="@+id/btn_paynow"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="40dp"
+                    android:text="PAY NOW"
+                    android:layout_below="@+id/rel"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:textSize="25dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@mipmap/checkout_button"/>
+
+
+            </RelativeLayout>
+
+
+
+
+        </LinearLayout>
+    </com.zoptal.chinamoonbuffet.common.InteractiveScrollView>
+</android.support.v4.widget.DrawerLayout>
+
+
+
+
+
+
+
+
+
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+    <!--<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:id="@+id/DrawerLayout"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:elevation="1dp">-->
+
+    <!--&lt;!&ndash;<com.zoptal.chinamoonbuffet.common.InteractiveScrollView&ndash;&gt;-->
+        <!--&lt;!&ndash;xmlns:android="http://schemas.android.com/apk/res/android"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:id="@+id/scrollView"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_marginTop="3dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:background="@color/colorblack"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:fillViewport="true"&ndash;&gt;-->
+        <!--&lt;!&ndash;&gt;&ndash;&gt;-->
+
+        <!--<RelativeLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="#F1F1F1"-->
+            <!--android:orientation="vertical">-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="YOUR ORDERS"-->
+                <!--android:textSize="18dp"-->
+                <!--android:layout_marginTop="30dp"-->
+                <!--android:layout_marginLeft="15dp"-->
+                <!--android:textColor="#000000"-->
+                <!--android:textStyle="bold"-->
+                <!--/>-->
+            <!--<ListView-->
+                <!--android:id="@+id/listView"-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_height="100dp"-->
+                <!--android:gravity="center"-->
+                <!--android:background="#ffffff"-->
+                <!--android:divider="@android:color/transparent"-->
+                <!--android:dividerHeight="5dp"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--/>-->
+
+            <!--<TextView-->
+                <!--android:layout_below="@+id/listView"-->
+                <!--android:id="@+id/tv"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="IF YOU HAVE COUPON CODE"-->
+                <!--android:textSize="18dp"-->
+                <!--android:textStyle="bold"-->
+                <!--android:layout_marginTop="20dp"-->
+                <!--android:layout_centerHorizontal="true"-->
+                <!--android:layout_gravity="center_horizontal"-->
+                <!--android:textColor="#000000"/>-->
+
+
+
+            <!--<RelativeLayout-->
+                <!--android:layout_centerHorizontal="true"-->
+                <!--android:layout_below="@+id/tv"-->
+                <!--android:id="@+id/rel_coupon"-->
+                <!--android:layout_width="200dp"-->
+                <!--android:layout_height="70dp"-->
+                <!--android:layout_gravity="center_horizontal"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:background="@drawable/coupon_code_box"></RelativeLayout>-->
+
+            <!--<ImageView-->
+                <!--android:layout_toRightOf="@+id/rel_coupon"-->
+                <!--android:layout_width="40dp"-->
+                <!--android:layout_height="40dp"-->
+                <!--android:layout_below="@+id/tv"-->
+                <!--android:layout_marginTop="20dp"-->
+                <!--android:layout_marginLeft="20dp"-->
+                <!--android:background="@drawable/coupon_code_success_icon"-->
+                <!--android:layout_gravity="right" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/tv1"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:textSize="18dp"-->
+                <!--android:textColor="#000000"-->
+                <!--android:layout_below="@+id/rel_coupon"-->
+                <!--android:layout_marginLeft="15dp"-->
+                <!--android:layout_marginTop="30dp"-->
+                <!--android:text="OUR RECOMMENDATION"/>-->
+
+
+            <!--&lt;!&ndash;<RelativeLayout&ndash;&gt;-->
+                <!--&lt;!&ndash;android:id="@+id/rel_recomm"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_below="@+id/tv1"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:orientation="horizontal"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:background="#ffffff"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_marginTop="15dp">&ndash;&gt;-->
+
+                <!--&lt;!&ndash;<android.support.v4.view.ViewPager&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:id="@+id/pager1"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_margin="10dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_height="150dp">&ndash;&gt;-->
+                <!--&lt;!&ndash;</android.support.v4.view.ViewPager>&ndash;&gt;-->
+
+
+            <!--&lt;!&ndash;</RelativeLayout>&ndash;&gt;-->
+
+            <!--<Button-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="60dp"-->
+                <!--android:layout_marginTop="40dp"-->
+                               <!--android:text="CHECK OUT"-->
+                <!--android:textColor="#ffffff"-->
+                <!--android:textStyle="bold"-->
+                <!--android:textSize="20dp"-->
+                <!--android:background="@drawable/checkout_button"/>-->
+
+
+
+        <!--</RelativeLayout>-->
+    <!--&lt;!&ndash;</com.zoptal.chinamoonbuffet.common.InteractiveScrollView>&ndash;&gt;-->
+<!--</android.support.v4.widget.DrawerLayout>-->
+

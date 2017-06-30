@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#a9a9a9"
+>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorwhite">
+
+        <ImageView
+            android:id="@+id/img_bck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/cross"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textColor="@color/colorblack"
+            android:layout_margin="10dp"/>
+
+    </RelativeLayout>
+
+
+<com.zoptal.chinamoonbuffet.common.InteractiveScrollView
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="1dp"
+    android:background="@mipmap/signin_background"
+    android:fillViewport="true"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+<!--<RelativeLayout-->
+    <!--android:layout_marginTop="40dp"-->
+    <!--android:layout_marginLeft="20dp"-->
+    <!--android:layout_marginRight="20dp"-->
+    <!--android:background="#43609C"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="40dp">-->
+    <!--<ImageView-->
+        <!--android:layout_margin="10dp"-->
+        <!--android:background="@mipmap/facebook_icon"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content" />-->
+        <!--<Button-->
+            <!--android:background="@android:color/transparent"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Sign up via facebook"-->
+            <!--android:id="@+id/btn_fb"-->
+            <!--android:textAllCaps="false"-->
+            <!--android:textColor="#ffffff"-->
+            <!--android:textSize="16dp"-->
+            <!--android:layout_gravity="center_horizontal" />-->
+<!--</RelativeLayout>-->
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/connectWithFbButton"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="center"
+            android:textAllCaps="false"
+            android:layout_marginTop="40dp"
+            />
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/sign_in_button"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="center_horizontal" />
+
+        <!--<RelativeLayout-->
+            <!--android:layout_marginTop="20dp"-->
+            <!--android:layout_marginLeft="20dp"-->
+            <!--android:layout_marginRight="20dp"-->
+            <!--android:background="#DB4537"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="40dp">-->
+        <!--<ImageView-->
+            <!--android:layout_margin="10dp"-->
+            <!--android:background="@mipmap/google_icon"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content" />-->
+        <!--<Button-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Sign up via google"-->
+            <!--android:id="@+id/btn_google"-->
+            <!--android:textColor="#ffffff"-->
+            <!--android:textSize="16dp"-->
+            <!--android:textAllCaps="false"-->
+            <!--android:background="@android:color/transparent"-->
+            <!--android:layout_gravity="center_horizontal" />-->
+
+<!--</RelativeLayout>-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Name"-->
+            <!--android:textSize="16dp"-->
+            <!--android:textColor="@color/colorwhite"-->
+            <!--android:layout_marginTop="50dp"-->
+            <!--android:layout_marginLeft="30dp"/>-->
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/user_img"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/male_profile"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"/>
+
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" NAME"
+            android:textSize="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="27dp"
+           android:textColor="#ffffff"
+            />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@android:color/transparent">
+            <EditText
+                android:id="@+id/ed_name"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint=" required"
+                android:background="@drawable/textfieldborder"
+                android:layout_margin="3dp"
+                android:textSize="14dp"
+                android:padding="8dp"
+                android:textCursorDrawable="@drawable/blackcursor"
+                android:singleLine="true"
+                android:imeOptions="actionNext"
+               android:textColorHint="#a9a9a9"
+                />
+        </RelativeLayout>
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="EMAIL"-->
+            <!--android:textSize="16dp"-->
+            <!--android:textColor="@color/colorwhite"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:layout_marginLeft="30dp"/>-->
+
+        <TextView
+            android:id="@+id/tv_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" EMAIL"
+            android:textSize="16dp"
+
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="27dp"
+            android:textColor="#ffffff"
+            />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@android:color/transparent">
+
+            <EditText
+                android:id="@+id/ed_email"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint=" required"
+                android:background="@drawable/textfieldborder"
+                android:padding="8dp"
+                android:singleLine="true"
+                android:imeOptions="actionNext"
+                android:textCursorDrawable="@drawable/blackcursor"
+                android:textSize="14dp"
+                android:layout_margin="3dp"
+                android:textColorHint="#a9a9a9"
+                />
+        </RelativeLayout>
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="PASSWORD"-->
+            <!--android:textSize="16dp"-->
+            <!--android:textColor="@color/colorwhite"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:layout_marginLeft="30dp"/>-->
+        <TextView
+            android:id="@+id/tv_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" PASSWORD"
+            android:textSize="16dp"
+
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="27dp"
+            android:textColor="#ffffff"
+            />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@android:color/transparent">
+
+            <EditText
+                android:id="@+id/ed_pw"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint=" Password"
+                android:layout_margin="3dp"
+                android:textSize="14dp"
+                android:inputType="textPassword"
+                android:singleLine="true"
+                android:imeOptions="actionNext"
+                android:background="@drawable/textfieldborder"
+                android:padding="8dp"
+                android:textCursorDrawable="@drawable/blackcursor"
+                android:textColorHint="#a9a9a9"
+                />
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/tv_loc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" ADDRESS"
+            android:textSize="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="27dp"
+            android:textColor="#ffffff"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@android:color/transparent">
+
+
+            <AutoCompleteTextView
+                android:id="@+id/autoCompleteTextView"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="required"
+                android:textSize="14dp"
+                android:singleLine="true"
+                android:imeOptions="actionNext"
+                android:background="@drawable/textfieldborder"
+                android:padding="8dp"
+                android:textCursorDrawable="@drawable/blackcursor"
+                android:textColorHint="#a9a9a9">
+
+                <requestFocus />
+            </AutoCompleteTextView>
+
+
+            <!---->
+            <!--<EditText-->
+                <!--android:id="@+id/ed_address"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="70dp"-->
+                <!--android:hint=" Address"-->
+                <!--android:layout_margin="3dp"-->
+                <!--android:textSize="14dp"-->
+                <!--android:singleLine="true"-->
+                <!--android:imeOptions="actionNext"-->
+                <!--android:background="@drawable/textfieldborder"-->
+                <!--android:padding="8dp"-->
+                <!--android:textCursorDrawable="@drawable/blackcursor"-->
+                <!--android:textColorHint="#a9a9a9"-->
+                <!--/>-->
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_phn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" PHONE NUMBER"
+            android:textSize="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="27dp"
+            android:textColor="#ffffff"
+            />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@android:color/transparent">
+
+            <EditText
+                android:id="@+id/ed_phone"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint=" required"
+                android:layout_margin="3dp"
+                android:textSize="14dp"
+                android:singleLine="true"
+                android:inputType="number"
+                android:imeOptions="actionNext"
+                android:background="@drawable/textfieldborder"
+                android:padding="8dp"
+                android:textCursorDrawable="@drawable/blackcursor"
+                android:textColorHint="#a9a9a9"
+                />
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/tv_zip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" ZIPCODE"
+            android:textSize="16dp"
+
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="27dp"
+            android:textColor="#ffffff"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@android:color/transparent">
+
+            <EditText
+                android:id="@+id/ed_zipcode"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint=" required"
+                android:layout_margin="3dp"
+                android:textSize="14dp"
+                android:singleLine="true"
+                android:imeOptions="actionDone"
+                android:background="@drawable/textfieldborder"
+                android:padding="8dp"
+                android:textCursorDrawable="@drawable/blackcursor"
+                android:textColorHint="#a9a9a9"
+                />
+        </RelativeLayout>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="Sign up"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorwhite"
+            android:id="@+id/btn_signup"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="10dp"
+            android:background="@mipmap/signup_button"
+            android:layout_gravity="center_horizontal" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+          android:layout_marginBottom="20dp"
+            android:layout_marginTop="10dp"
+           >
+
+            <TextView
+                android:id="@+id/tv_member"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Already a member?"
+                android:textSize="14dp"
+                android:textColor="#808080"
+                android:textStyle="bold"
+                android:layout_marginLeft="90dp"/>
+            <TextView
+                android:id="@+id/tv_sign"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sign in"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="2dp"
+                android:layout_toRightOf="@+id/tv_member"
+                android:textColor="#ffffff"
+              />
+
+            </RelativeLayout>
+    </LinearLayout>
+
+
+
+
+    </com.zoptal.chinamoonbuffet.common.InteractiveScrollView>
+    </LinearLayout>

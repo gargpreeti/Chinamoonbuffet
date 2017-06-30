@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="ee0ccb43f6ab276191b7f2d77c305fa9beb26db9">
+        <dex dex="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-clearcut-9.6.1_fd87788fb6695f001ca80a298cccb6adbf23daf2/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="62ff84124b89177abc0c27f3e38c9732f2d41617">
+        <dex dex="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-maps-9.6.1_941f19bca660bbbb7872945d9abbd7dbea9d99c6/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="c828add497d2b7a3de7c047bf72050cd4b7521a1">
+        <dex dex="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-safetynet-9.6.1_874c20d6b8805cd6f3c6733c4169d6eba49b91e4/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-instantapps/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="babb25794a7599069d34705038744c5760a9a88c">
+        <dex dex="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-instantapps-9.6.1_0e64641d250f7265b62d906e9246ddc9e5730cee/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="d45c048bb1c55cf963899190e507065aea8e5be9">
+        <dex dex="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-games-9.6.1_4398520bc81390f420674051bee50f7f02ed0bb0/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
+        <dex dex="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_0d5ded012f628e3f48d2ce323809487feeb3323e/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zotal.102/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.2.0/6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd/bolts-android-1.2.0.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
+        <dex dex="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/transforms/dex/debug/folders/1000/10/bolts-android-1.2.0_34963445de3a49072e5445579ced274acec7d829/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="f6aa7c76cbaa867e05dbad0afab1ef0e65c4e55f">
+        <dex dex="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-nearby-9.6.1_7c74fbdf8b3650b04747f54c88da82a1bb1a7030/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-api/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="f0e96478ca3147bc588aadb9ae467d85b42473cc">
+        <dex dex="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-api-9.6.1_74b065548c598e2235953bc4608e60b2fe972ee8/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/3.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="0e1f104cf60bfe34147ef670229f2635789c79a4">
+        <dex dex="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.journeyapps-zxing-android-embedded-3.4.0_0adea7195a545486fd26cff398e299eedaff96e3/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zotal.102/.gradle/caches/modules-2/files-2.1/com.google.zxing/core/3.2.1/2287494d4f5f9f3a9a2bb6980e3f32053721b315/core-3.2.1.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="2287494d4f5f9f3a9a2bb6980e3f32053721b315">
+        <dex dex="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/transforms/dex/debug/folders/1000/10/core-3.2.1_9b4aee6af710712a596d184d4411325768542ec7/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="0cae6511c5705869cacf199f8abb0ea84cd10157">
+        <dex dex="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-vision-9.6.1_6ca20796ebed6912e2afacbd1a332f92e535bb47/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="1810ae0df0a1b9b539ce97df54e96f2bf8f5ff94">
+        <dex dex="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-9.6.1_93091b4d28fbfe7c53d1d2e9e8cce5e95c817a83/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
+        <dex dex="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.0.0_1534f74cb03c7c57c5b54a6e9ac641670c68946c/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="40fe3842ea258a089eed0d076253e6b5dfbe8870">
+        <dex dex="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_841de9e75e8e8dd18df29cb1eea3cad180d65546/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
+        <dex dex="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.0.0_dd1eb7dff7d1813307f9d8d0f678324fed124d35/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="6ff796a3173787afe2e712f3aec6f5b99796118e">
+        <dex dex="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-lite-9.6.1_fef1a7a77dad0531acd53cba7d0c5409aab44537/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="cc39b4bcc9e7062891db90d5a752fa9e4986f447">
+        <dex dex="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appindexing-9.6.1_dcba3fddd672be8bf7b26c801ca01bccddad7560/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_20ae3d8565bf33e62ca0d0d5e030fe711194a990/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="79f521967ad7f49b34748db89df02852c2b2f87b">
+        <dex dex="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-location-9.6.1_9cea3e24b7597c14a685bc72d3c4e23c65c3b0bc/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.1.1_716c8b4fbb30ebc5c95d64b86fb0bd50730d2b3c/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="8c6ef5bd4072f8cda2b89d8356ea7d8acd0683aa">
+        <dex dex="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-9.6.1_5ef7755779defb882d29f8c82064a8c868172338/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="2a18547ea91d258866d132c2a763185f15b01b25">
+        <dex dex="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-9.6.1_8c511c72e170b95620dc887caf2a848d5d1eb549/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
+        <dex dex="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.0.0_64d95576db7f6c231746c7b72cc92ebb273365e6/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/exploded-aar/com.android.support/palette-v7/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
+        <dex dex="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-palette-v7-24.0.0_f0bec7321cdf7d7f83ca7dadd5e030578619f902/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-awareness/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="90be14317e3f26d18438e8dbf8544500d1dfe07f">
+        <dex dex="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-awareness-9.6.1_ae462afa3dfa9674facd2cd0a7dc01342a4ca850/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="1e14ebe1cda8491f152083e752ca5bf73cd37bff">
+        <dex dex="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-9.6.1_32fb1d5b6a837a26b81353fe5402a0ea96c1f2d1/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-common/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="77558e74bb2056ef38516296f13a27c4c4fc3e5c">
+        <dex dex="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-common-9.6.1_61b71a25697c82aa248d070dfa54b073a5d90607/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/exploded-aar/com.android.support/multidex/1.0.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-multidex-1.0.1_a84f476505058e657266a827eec306687c56a89a/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="518adc52081d41724932b41bc132e4d50a352b86">
+        <dex dex="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-identity-9.6.1_b72af8422955fb8ddf4b50ed8847a9d6e4c79a3a/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zotal.102/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.3.2/d6b7f0093cec6c9faf65dbfd6a6a345d0ed25e27/picasso-2.3.2.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="d6b7f0093cec6c9faf65dbfd6a6a345d0ed25e27">
+        <dex dex="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.3.2_28b97b506648753f9af4f9b8074ea2ed6f90a500/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="9c0cf3d4f9d7d076f301e110b92e18ae23da12c2">
+        <dex dex="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-framework-9.6.1_5ebc0b78a7dd30bd1da56c164235f52f010779cb/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="ad7706f8bb4a985656a8d2142f74021c8b0e03d8">
+        <dex dex="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gcm-9.6.1_234334d26925802c6ee3512edaf2c6eef0473c01/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="80dd8bea08bc5fe10b10a3243b8279c856ccc690">
+        <dex dex="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-messaging-9.6.1_689fc65ada9cc11162088fd945bb2e660cac0d19/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.0.0_9997b80725750d957a72acda51c4104a24281cbf/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/exploded-aar/org.lucasr.twowayview/twowayview/0.1.4/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="1a2a997b75e4c94dac7051557be6b95a06566291">
+        <dex dex="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/transforms/dex/debug/folders/1000/10/org.lucasr.twowayview-twowayview-0.1.4_c9c6306b2e03b7551589b9630af8c86892e23d70/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/exploded-aar/com.paypal.sdk/paypal-android-sdk/2.15.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="7de4e9c774aa3924c5633377c652913fa7de49e0">
+        <dex dex="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.paypal.sdk-paypal-android-sdk-2.15.1_df5f351fcd82f9f4e4e378acb5fa12d5f765982f/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="0dfc12e4aacf514346ea866560c99807d032bc48">
+        <dex dex="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-iid-9.6.1_04e74f8846efa98e6a444f3479183b5b20df2721/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="1ef72e72bc0d05602c366582afa9439f58bb31d6">
+        <dex dex="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-9.6.1_68560fc359b47ef5733c790b05408d4ef420a7cf/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="2d5c7e3b1123d0696bb3d45300c27293962b411d">
+        <dex dex="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_e8a2ab4cabcdc42d400b28a871e5c476d0765a31/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/exploded-aar/de.hdodenhof/circleimageview/1.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="4b868b833b0887aa48c4e581558eef4f1196f6a2">
+        <dex dex="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/transforms/dex/debug/folders/1000/10/de.hdodenhof-circleimageview-1.2.1_4d28f6e177d8014e8e1c3b5a84842190f2ffb012/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/exploded-aar/com.google.firebase/firebase-config/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="cf2c4e6607c77b0e671dc5ca252c5ea0d9c1ce0d">
+        <dex dex="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-config-9.6.1_79db06755fbfe1236fc60f07eb9cd4e42cbef8ca/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="a53ac0560ab915a02c50d2e5c7b003381e6fb5e3">
+        <dex dex="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-impl-9.6.1_7da3d3e79b9b7af24f790b0844f3d4f2e8bbbd0c/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="dfcba20b85ef3669a8ced0a8760a6df281cbd7c7">
+        <dex dex="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wallet-9.6.1_76cb65fa750ed77ca06e2725068ca3056dc32895/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="0e0e0681c26a1f575d3e4c542182dd59bab75fd6">
+        <dex dex="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appinvite-9.6.1_93e8c2eb8eaf7d8092f16823647228a8652abd31/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="c4394d46152165cd3256fb711ac94f66a28fbae1">
+        <dex dex="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wearable-9.6.1_dc9faf8e196b059b4447f3b561c8c864209171c9/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="af7582c6b327449c6d32518e6a10307860b7b5d6">
+        <dex dex="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-9.6.1_b414f72ea295a9c2b2a51983b55996b1dd7c84e8/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zotal.102/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.2/ccde00f7ccc77af5a6d5752e2cb21f6d8998289f/okhttp-3.4.2.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="ccde00f7ccc77af5a6d5752e2cb21f6d8998289f">
+        <dex dex="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.4.2_a18691d5613dca1d5b220e910dc49e4e4d21ffd0/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zotal.102/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.9.0/f824591a0016efbaeddb8300bee54832a1398cfa/okio-1.9.0.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.9.0_c6b15bd86f7f0bd1d2246e3b80ab0ca13ee4240b/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="8ebae43cd06058e99e08c8b4d305b72f2b9927c6">
+        <dex dex="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-plus-9.6.1_4985210377f60e0127b85f00793baac3ff95b3eb/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="465f40f840e583f8b7421a3aacf3fbf08c28f00a">
+        <dex dex="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-base-9.6.1_fd690006246dbc4e2da6c55535d712e756aefdc5/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
+        <dex dex="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-mediarouter-v7-24.0.0_8d0fa48ef7c40470b527a907f31c571acbf78eef/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage-common/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="159494eb362396d073d8c922b77e40c0da5fc5bc">
+        <dex dex="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-common-9.6.1_f695b49efd43659c7bd2118033aacfc35793674c/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-module/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="6ffe8b28ab61e5ee92ab9431a220379790c71ddf">
+        <dex dex="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-module-9.6.1_397deac5fd1e5ca41b1b8de8d79e842541c3c4f9/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="ff9be0a1e75a21c372735930d8987a55b5e6065f">
+        <dex dex="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-panorama-9.6.1_6dc425d944acdce495770970c43c34b64ce5a808/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="ac8365c87591065db07f7bac8551504504832cd4">
+        <dex dex="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-connection-9.6.1_37f2ce7eed12cf744c0c5cd8eaf721668209b7eb/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="526f4b02f1771fa7607ff1b89fe2e9bd0344fee8">
+        <dex dex="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-9.6.1_b882592ca8200a5c81dd7c9da87560a53502975e/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="a136366045678579300d161de97c2211c4c4f7a0">
+        <dex dex="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-9.6.1_fe187a0a1c57d34dfc9bb2e0c6029cda4524d1b3/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="cdddf21e0a8205e9955661061d1735ed10e44a7b">
+        <dex dex="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-places-9.6.1_639f4787ec07e1bd7d651fd9f08fdb4ec3b92398/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="b75ecdd04a37d31b4a0da2729fc5c558962a529b">
+        <dex dex="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-9.6.1_f35d63fba230f3d6b2fa67c4e3f8fb537f94f8b5/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zotal.102/Library/Android/sdk/ndk-bundle/extras/android/m2repository/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.0.0_6f535cb35ea57afd14e837e2271ed44abf3b2410/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/exploded-aar/com.soundcloud.android/android-crop/1.0.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="11a65cf2b30c192b38a881d626fa771a78a2293d">
+        <dex dex="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.soundcloud.android-android-crop-1.0.1_7b38fa484523c7610f604853ff8be5ea43641d93/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="eccaaa9ffa6bb4bfbd2e870f01aaf69655d353be">
+        <dex dex="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-9.6.1_ff1901880a806e7aaaf15b66e81f3e1b1b2532ef/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="f8db47be01cbe8cfa81e9cecce5ff1371ed1ad95">
+        <dex dex="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-drive-9.6.1_8329815cedae1b81bcc1fe36e5a04ebec6f3e571/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="4df40545c9b875855f3dd9d4928e5d07f07c20ba">
+        <dex dex="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-crash-9.6.1_6ac1d9a65b6317c729ab0a990aa5854b3e524e10/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="ee61ace5f3e488fc610e1c67693c49186a441f32">
+        <dex dex="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gass-9.6.1_9b01372f556bbd4cd1b0d7a222ae3eb5bb7f42cd/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="da3f763afd39da1c947d9442847c837e9182a09f">
+        <dex dex="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-9.6.1_88fe89fa599c682466e20ca47978909d70c6f065/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="0efd1b44f47c134fb245914a1d54a55adbfc2f8d">
+        <dex dex="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-9.6.1_2f80451f4fa5e68b5d6f0bf83adfebb6483e624b/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="a76a6983a23788b3689524d4bed763955afbd306">
+        <dex dex="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-fitness-9.6.1_bace359585f94ffc4156cf2173ef2de2c9575821/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.1.1_323cc9ae743e341f2e53ae0d2322c766ca1619fa/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="47bbb3ec4b31ba71e125241c090dabe70cbb4de7">
+        <dex dex="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-9.6.1_55bcbaa808d038917149a77d610eaed28ddea7cb/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="4a36600281a648769411ef642c331851732bf29e">
+        <dex dex="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-9.6.1_e0399a1067a0a2262708eb9d84e9ed36f16ed5ff/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.6.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="1c1afa0ab2a8197a5da1b36c4167a9e479cb74d9">
+        <dex dex="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.facebook.android-facebook-android-sdk-4.6.0_6a2f0761e28bc54d31387de70ac1247e3f3a8602/classes.dex" />
+    </item>
+    <item
+        jar="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="a1c351dc10b92d638da57f3a6513f87cfbdc9f83">
+        <dex dex="/Users/zotal.102/Documents/android work/Restaurantapp/Chinamoonbuffet/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-9.6.1_f1f9c0252a587082af422cea391de231d03a9c99/classes.dex" />
+    </item>
+
+</items>

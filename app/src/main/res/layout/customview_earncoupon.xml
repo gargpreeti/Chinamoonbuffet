@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/coloroffwhite"
+      android:layout_height="match_parent"
+
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rel"
+        android:background="#f2f2f2"
+        android:layout_width="wrap_content"
+        android:layout_height="110dp">
+
+<TextView
+    android:id="@+id/tv_main"
+    android:text="SPECIAL NIGHT"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#000000"
+    android:textSize="16dp"
+    android:textStyle="bold"
+    android:layout_marginRight="5dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginTop="15dp"
+    android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/tv_punch"
+            android:layout_below="@+id/tv_main"
+            android:text="Earn_on:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="14dp"
+            android:alpha="0.7"
+            android:visibility="gone"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/tv_date"
+            android:layout_toRightOf="@+id/tv_punch"
+            android:layout_below="@+id/tv_main"
+            android:text="04,Jan,2017"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="14dp"
+            android:layout_marginLeft="12dp"/>
+
+        <TextView
+            android:id="@+id/tv_percnt"
+            android:textColor="#000000"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="70dp"
+            android:text="25%"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_marginRight="5dp"
+         android:layout_toLeftOf="@+id/discount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/discount"
+            android:textColor="#000000"
+            android:text="Discount"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:alpha="0.7"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="17dp"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:id="@+id/tv_cupon"
+            android:textColor="#000000"
+            android:layout_marginTop="5dp"
+           android:layout_marginRight="8dp"
+            android:text="Push To Copy Code"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:alpha="0.8"
+            android:layout_below="@+id/discount"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RelativeLayout
+            android:layout_below="@+id/tv_cupon"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/dotted_box"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="120dp"
+            android:layout_height="35dp">
+
+        <TextView
+            android:id="@+id/tv_code"
+            android:textColor="#000000"
+            android:text=""
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:alpha="0.7"
+        android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textIsSelectable="true"
+            android:longClickable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+
+        <!--<Button-->
+            <!--android:id="@+id/btn_redeem"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:textColor="#ffffff"-->
+            <!--android:textStyle="bold"-->
+            <!--android:textSize="18dp"-->
+            <!--android:textAllCaps="false"-->
+            <!--android:layout_below="@+id/tv_date"-->
+            <!--android:layout_marginLeft="20dp"-->
+            <!--android:layout_marginBottom="5dp"-->
+            <!--android:background="@mipmap/dnt_push_icon"/>-->
+
+        <ImageView
+            android:id="@+id/btn_redeem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="20dp"
+            android:background="@mipmap/dnt_push_icon"
+            android:textSize="10dp"
+            android:layout_below="@+id/tv_date"
+            android:alpha="0.7"
+            android:layout_centerVertical="true"
+            android:textColor="#808080"/>
+    </RelativeLayout>
+
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/disable_img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/line"/>
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/disable_img1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/line"/>
+
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/disable_img2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/line"/>
+</RelativeLayout>

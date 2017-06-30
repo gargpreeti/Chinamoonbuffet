@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:thickness="0dp"
+    android:shape="rectangle">
+    <stroke android:width="1dp"
+        android:color="#a9a9a9"/>
+    <corners android:radius="1dp" />
+
+    <item>
+    <bitmap
+    android:gravity="center_vertical|right"
+    android:src="@mipmap/dropdown_icon"/>
+    </item>
+    <!--<gradient-->
+    <!--android:startColor="#C8C8C8"-->
+    <!--android:endColor="#FFFFFF"-->
+    <!--android:type="linear"-->
+    <!--android:angle="270"/>-->
+</shape>
+
+
+
+
+
+
+
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--&lt;!&ndash;<selector xmlns:android="http://schemas.android.com/apk/res/android">&ndash;&gt;-->
+
+    <!--&lt;!&ndash;<shape xmlns:android="http://schemas.android.com/apk/res/android">&ndash;&gt;-->
+        <!--&lt;!&ndash;<solid android:color="#808080" />&ndash;&gt;-->
+        <!--&lt;!&ndash;<corners android:radius="2dp" />&ndash;&gt;-->
+        <!--&lt;!&ndash;<stroke&ndash;&gt;-->
+            <!--&lt;!&ndash;android:width="1dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:color="#BDBDBD" />&ndash;&gt;-->
+    <!--&lt;!&ndash;</shape>&ndash;&gt;-->
+<!--&lt;!&ndash;</selector>&ndash;&gt;-->
+<!--<selector xmlns:android="http://schemas.android.com/apk/res/android">-->
+
+        <!--&lt;!&ndash;<stroke android:width="1dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:color="#a9a9a9"/>&ndash;&gt;-->
+        <!--&lt;!&ndash;<corners android:radius="1dp" />&ndash;&gt;-->
+
+<!--<item>-->
+
+    <!--<layer-list>-->
+
+            <!--&lt;!&ndash;<gradient&ndash;&gt;-->
+            <!--&lt;!&ndash;android:startColor="#C8C8C8"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:endColor="#FFFFFF"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:type="linear"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:angle="270"/>&ndash;&gt;-->
+        <!--<shape>-->
+        <!--<solid android:color="#808080" />-->
+        <!--<corners android:radius="2dp" />-->
+        <!--<stroke-->
+        <!--android:width="1dp"-->
+        <!--android:color="#BDBDBD" />-->
+
+        <!--<item>-->
+            <!--<color-->
+                <!--android:color="@android:color/white"/>-->
+        <!--</item>-->
+
+        <!--<item>-->
+            <!--<bitmap-->
+                <!--android:gravity="center_vertical|right"-->
+                <!--android:src="@mipmap/dropdown_icon"/>-->
+        <!--</item>-->
+        <!--</shape>-->
+    <!--</layer-list>-->
+
+<!--</item>-->
+
+<!--</selector>-->

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/DrawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:elevation="1dp">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1F1F1"
+    >
+    <LinearLayout
+        android:id="@+id/rel_divideline"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:orientation="horizontal"
+        android:background="#a9a9a9">
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tv_main"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp"
+        android:background="#F1F1F1">
+
+        <Button
+            android:id="@+id/btn_dailyoffer"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Latest Offers"
+            android:textSize="16dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:background="@android:color/holo_red_dark"
+            android:layout_centerVertical="true"
+
+        />
+        <Button
+            android:id="@+id/btn_earncoupon"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Earned coupons"
+            android:textSize="16dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+
+            android:layout_marginLeft="1dp"
+            android:layout_weight="1"
+            android:background="@android:color/holo_red_dark"
+            android:layout_centerVertical="true"
+
+            />
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="15dp"-->
+            <!--android:text="DAILY OFFER FOR YOU"-->
+            <!--android:textSize="18dp"-->
+            <!--android:textColor="#000000"-->
+            <!--android:textStyle="bold"-->
+            <!--android:alpha="0.6"-->
+            <!--android:layout_centerVertical="true"/>-->
+
+        <!--&lt;!&ndash;earned coupons&ndash;&gt;-->
+
+        <!--<RelativeLayout-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="70dp"-->
+            <!--android:layout_marginLeft="15dp"-->
+          <!--android:background="@mipmap/offer_strip"-->
+            <!--android:layout_alignParentRight="true">-->
+        <!--<ImageView-->
+            <!--android:layout_width="40dp"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:background="@mipmap/offer_tag"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_centerHorizontal="true"/>-->
+<!--</RelativeLayout>-->
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:divider="#808080"
+        android:dividerHeight="1dp"
+        android:layout_below="@+id/tv_main"
+       android:layout_marginBottom="5dp"
+        />
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:divider="#808080"
+        android:dividerHeight="1dp"
+        android:layout_below="@+id/tv_main"
+        android:layout_marginBottom="5dp"
+        />
+
+    </RelativeLayout>
+    </android.support.v4.widget.DrawerLayout>

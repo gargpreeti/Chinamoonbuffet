@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#a9a9a9">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorwhite">
+
+        <ImageView
+            android:id="@+id/img_bck"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@mipmap/back_arrow"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" FORGOT PASSWORD"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textColor="@color/colorblack"
+            android:layout_margin="10dp"/>
+
+    </RelativeLayout>
+
+
+<com.zoptal.chinamoonbuffet.common.InteractiveScrollView
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="2dp"
+    android:background="@color/coloroffwhite"
+    android:fillViewport="true"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/ed_email"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint=" Enter email address"
+                android:background="@mipmap/email_address"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="100dp"
+                android:textSize="16dp"
+                android:padding="8dp"
+                android:singleLine="true"
+                android:imeOptions="actionDone"
+                android:textCursorDrawable="@drawable/blackcursor"
+               android:textColorHint="#a9a9a9"
+                />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="         SEND NOW    "
+            android:textSize="20dp"
+            android:layout_marginTop="60dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorwhite"
+            android:id="@+id/btn_send"
+            android:background="@mipmap/send_now_button"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+
+
+
+
+    </com.zoptal.chinamoonbuffet.common.InteractiveScrollView>
+    </LinearLayout>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+         >
+<ImageView
+    android:id="@+id/img"
+    android:layout_width="130dp"
+    android:layout_height="70dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="20dp"
+   />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Center table"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:alpha="0.6"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/img"/>
+
+           <TextView
+               android:id="@+id/tv2"
+                 android:layout_below="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="14dp"
+               android:layout_marginTop="5dp"
+               android:layout_marginRight="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/img"/>
+
+
+<Button
+    android:id="@+id/btn_reserve"
+    android:layout_width="200dp"
+    android:layout_height="35dp"
+    android:background="@mipmap/sign_up_button"
+    android:layout_marginTop="20dp"
+    android:textColor="#ffffff"
+    android:text="Reserve Now"
+    android:textSize="18dp"
+    android:textAllCaps="false"
+    android:layout_marginBottom="10dp"
+    android:textStyle="bold"
+    android:layout_centerHorizontal="true"
+    android:layout_below="@+id/tv2"/>
+
+    <Button
+        android:id="@+id/btn_reserved"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/sign_up_button"
+        android:layout_marginTop="20dp"
+        android:textColor="#ffffff"
+        android:text="Reserved"
+        android:textSize="16dp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"
+        android:alpha="0.3"
+        android:visibility="gone"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tv2"/>
+
+            <!--<RelativeLayout-->
+                <!--android:layout_below="@+id/tv2"-->
+                <!--android:layout_width="140dp"-->
+                <!--android:layout_height="40dp"-->
+                <!--android:layout_marginRight="3dp"-->
+                <!--android:layout_weight=".28"-->
+                <!--android:layout_toRightOf="@+id/img"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:layout_marginTop="15dp"-->
+                <!--android:background="@drawable/spinner_border"-->
+                <!--android:orientation="horizontal">-->
+
+                <!--<Spinner-->
+                    <!--android:id="@+id/spinner"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_centerVertical="true"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--android:background="@android:color/transparent"-->
+                    <!--android:gravity="center"-->
+                    <!--android:layout_marginLeft="5dp"-->
+                    <!--android:layout_marginRight="5dp"-->
+                    <!--android:spinnerMode="dropdown"-->
+                    <!--android:layout_toStartOf="@+id/imageView" />-->
+
+                <!--<ImageView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_alignParentRight="true"-->
+                    <!--android:layout_centerVertical="true"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--android:layout_marginRight="5dp"-->
+                    <!--android:src="@drawable/dropdown_icon"-->
+                    <!--android:id="@+id/imageView" />-->
+
+            <!--</RelativeLayout>-->
+
+            <!--<Spinner-->
+                <!--android:id="@+id/spinner"-->
+                <!--android:layout_width="70dp"-->
+                <!--android:layout_height="30dp"-->
+                <!--android:layout_below="@+id/tv2"-->
+                <!--android:layout_toRightOf="@+id/img"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:layout_marginTop="15dp"-->
+
+
+        </RelativeLayout>
+

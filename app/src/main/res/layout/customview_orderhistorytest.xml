@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+         >
+<ImageView
+    android:id="@+id/img"
+    android:layout_width="60dp"
+    android:layout_height="60dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="5dp"
+    />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VEGGIE CUTLETS"
+            android:textColor="#000000"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/img"/>
+
+           <TextView
+               android:id="@+id/tv2"
+               android:layout_marginTop="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(KUZHAMBU)"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/tv_name"/>
+
+
+    <TextView
+        android:layout_below="@+id/tv_name"
+        android:id="@+id/tv_qty"
+        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="QTY:"
+        android:textSize="12dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:layout_toRightOf="@+id/img"/>
+
+
+    <TextView
+        android:layout_below="@+id/tv_name"
+        android:id="@+id/tv_qtyvalue"
+        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2"
+        android:textSize="12dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:layout_toRightOf="@+id/tv_qty"/>
+    <View
+        android:id="@+id/tv_view"
+        android:layout_toRightOf="@+id/tv_qtyvalue"
+        android:layout_below="@+id/tv_name"
+        android:layout_marginLeft="30dp"
+        android:layout_width="1dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="10dp"
+        android:background="#808080" />
+
+
+    <TextView
+        android:layout_below="@+id/tv_name"
+        android:id="@+id/tv_totalamount"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TOTAL AMOUNT:"
+        android:textSize="12dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:textColor="#808080"
+        android:layout_marginBottom="10dp"
+        android:layout_toRightOf="@+id/tv_view"/>
+
+
+    <TextView
+        android:layout_below="@+id/tv_name"
+        android:id="@+id/tv_amountvalue"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$65"
+        android:textSize="12dp"
+        android:layout_marginLeft="7dp"
+        android:textStyle="bold"
+        android:textColor="#808080"
+        android:layout_marginBottom="10dp"
+        android:layout_toRightOf="@+id/tv_totalamount"/>
+
+    <!--<TextView-->
+        <!--android:layout_below="@+id/tv_qty"-->
+        <!--android:id="@+id/tv_ordertype"-->
+        <!--android:layout_marginTop="12dp"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="ORDER TYPE:"-->
+        <!--android:textSize="12dp"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:textStyle="bold"-->
+        <!--android:textColor="#808080"-->
+        <!--android:layout_toRightOf="@+id/img"/>-->
+
+
+    <!--<TextView-->
+        <!--android:layout_below="@+id/tv_qty"-->
+        <!--android:id="@+id/tv_ordername"-->
+        <!--android:layout_marginTop="12dp"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="PICKUP"-->
+        <!--android:textSize="12dp"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:textStyle="bold"-->
+        <!--android:textColor="#808080"-->
+        <!--android:layout_toRightOf="@+id/tv_ordertype"/>-->
+
+
+    <!--<ImageView-->
+        <!--android:layout_below="@+id/tv_qty"-->
+        <!--android:id="@+id/img_calndr"-->
+       <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="40dp"-->
+        <!--android:layout_marginTop="30dp"-->
+        <!--android:background="@mipmap/calander_icon"-->
+        <!--android:layout_toLeftOf="@+id/tv_date"/>-->
+
+    <!--<TextView-->
+        <!--android:layout_marginRight="10dp"-->
+        <!--android:layout_marginTop="30dp"-->
+        <!--android:layout_below="@+id/tv_qty"-->
+        <!--android:id="@+id/tv_date"-->
+          <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="3 Dec 2016"-->
+        <!--android:textSize="12dp"-->
+        <!--android:layout_marginLeft="5dp"-->
+        <!--android:textStyle="bold"-->
+        <!--android:layout_marginBottom="5dp"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:textColor="#808080"-->
+        <!--/>-->
+
+        </RelativeLayout>
+

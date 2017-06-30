@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:background="@drawable/popupback"
+android:orientation="vertical"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tv_cncl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="right"
+        android:text="X"
+        android:textSize="30dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="1dp"
+        android:textStyle="bold" />
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="470dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:background="#ffffff"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:orientation="horizontal"
+           >
+
+            <TextView
+                android:id="@+id/tv_main"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:gravity="right"
+                android:layout_marginTop="15dp"
+                android:layout_centerHorizontal="true"
+                android:text="LATEST DELIVERY"
+                android:layout_marginRight="5dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000"
+                android:layout_marginBottom="10dp"
+                android:textStyle="bold" />
+
+
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_below="@+id/tv_main"
+                android:layout_marginBottom="5dp"
+                android:background="#a9a9a9"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"></LinearLayout>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <RelativeLayout
+            android:background="#000000"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+           android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/img"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="25dp"
+           android:background="@mipmap/location_icond"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tv_address"
+                android:layout_toRightOf="@+id/img"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:textColor="#ffffff"
+                android:textSize="14dp"
+                android:text="526 EL DORADO StREET ORCHARD PARK,NY 14127"
+                android:layout_width="160dp"
+                android:layout_marginBottom="20dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_marginLeft="7dp"
+                android:layout_toRightOf="@+id/tv_address"
+                android:layout_marginRight="2dp"
+                android:textColor="#ffffff"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/user_img"
+                android:text="Preeti Garg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/user_img"
+                android:layout_centerVertical="true"
+                android:src="@drawable/male_profile"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="5dp"
+                android:layout_alignParentEnd="true"
+                />
+            </RelativeLayout>
+
+
+            </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:background="@mipmap/location_icon"
+            android:id="@+id/img_dis"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_toRightOf="@+id/img_dis"
+            android:id="@+id/tv_distance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=" DISTANCE"
+            android:textSize="14dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_marginTop="22dp"
+            android:layout_marginLeft="5dp"
+                     android:layout_marginRight="20dp"
+            android:textColorHint="@android:color/holo_red_dark"
+            />
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/tv_distancevalue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=" 6km,24miles"
+            android:textSize="14dp"
+            android:singleLine="true"
+            android:imeOptions="actionNext"
+            android:textColor="#a9a9a9"
+            android:layout_marginLeft="38dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="5dp"
+            android:textCursorDrawable="@drawable/blackcursor"
+            android:textColorHint="#a9a9a9"
+            />
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:background="@mipmap/location_icon"
+            android:id="@+id/img_delivrychrge"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_toRightOf="@+id/img_delivrychrge"
+            android:id="@+id/tv_delivery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=" DELIVERY CHARGE"
+            android:textSize="14dp"
+            android:layout_marginTop="8dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="20dp"
+            android:textColorHint="@android:color/holo_red_dark"
+            />
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/tv_chrge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=" $ 90"
+            android:textSize="14dp"
+            android:singleLine="true"
+            android:imeOptions="actionNext"
+            android:layout_marginTop="2dp"
+            android:textColor="#a9a9a9"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="20dp"
+            android:textCursorDrawable="@drawable/blackcursor"
+            android:textColorHint="#a9a9a9"
+            />
+
+<!--<ImageView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="120dp"-->
+    <!--android:layout_marginTop="5dp"-->
+    <!--android:background="@drawable/map_image"/>-->
+
+        <fragment
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:id="@+id/map"
+            android:layout_marginTop="5dp"
+            android:name="com.google.android.gms.maps.MapFragment" />
+        <Button
+            android:id="@+id/btn_continue"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:text="  Continue to Order  "
+            android:textColor="#ffffff"
+            android:textSize="22dp"
+            android:textAllCaps="false"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold"
+            android:background="@mipmap/add_to_cart_button"
+            android:layout_below="@+id/rel_phnnum"/>
+        </LinearLayout>
+
+</LinearLayout>
